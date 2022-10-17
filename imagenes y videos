@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1 imagenes y videos</title>
+</head>
+<body>
+    <section>
+        <h1>Aprendiendo a utilizar imagenes</h1><br>
+            <img src="https://www.leagueoflegends.com/static/open-graph-2e582ae9fae8b0b396ca46ff21fd47a8.jpg" alt="Imagen Lol"/>
+    </section>
+    <section></section>
+        <h1>Aprendiendo a utilizar videos</h1>
+            <video width="300px" height="300px" controls autoplay muted>
+                <source src="videocatarata.mp4" type="video/mp4">
+            </video>
+        <section>
+        <h1>Aprendiendo a utilizar audios</h1>
+            <audio controls autoplay loop>
+                <source src="himno.mp3" type="audio/mp3">
+            </audio>
+        </section>
+</body>
+</html>
