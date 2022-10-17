@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px #a8dadc;
+}
+div{
+    display:flex;
+    flex-wrap: wrap;
+}
+div img{
+    width: 300px;
+    margin: 10px 20px;
+}
