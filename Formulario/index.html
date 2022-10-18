@@ -1,1 +1,55 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link href="css/estilos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Registrate en los formularios</h1>
+        <div class="buttons">
+            <button class="google-btn">
+                <picture>
+                    <img src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png" alt="Logo google">
+                </picture>
+                <span>Registrarse con Google</span>
+            </button>
+            <button class="twitter-btn">
+                <picture>Twitter</picture>
+            </button>
+        </div>
+        <div class="separator">
+            <hr>
+                <span>O...</span>
+            <hr>
+        </div>
+        <form>
+            <div class="section-inputs">
+                <label for="Name">
+                    <span>Name</span>
+                    <input type="text" id="name" name="name" placeholder="">
+                </label>
+                <label for="Username">
+                    <span>Username</span>
+                    <input type="text" id="username" name="username" placeholder="">
+                </label>
+            </div>    
+                <label for="Email">
+                    <span>Email</span>
+                    <input type="email" id="email" name="email" placeholder="">
+                </label>
+                <label for="Password">
+                    <span>Password</span>
+                    <input type="password" id="password" name="password" placeholder="+6 caracteres">
+                </label>    
+                <label for="checkbox" class="checkbox-label">
+                    <input type="checkbox" id="checkbox">
+                    <span>Acepto las condiciones y el aviso legal</span>
+                </label>
+            <button type="submit" class="submit-btn">Crear Cuenta</button>
+        </form>
+    </div>
+</html>
