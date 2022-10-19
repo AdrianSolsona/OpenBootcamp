@@ -1,0 +1,29 @@
+.container{
+    display:flex;
+    background-color: aquamarine;
+    height:3.8rem;
+    float: left;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.elemento{
+    background-color: blueviolet;
+    padding: 0.25rem;   
+}
+.container1{
+    display: flex;
+    background-color: coral;
+    flex-direction: row;
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+    height: 3.8rem;
+    float: right;
+    width: 80%;
+}
+@media (max-width: 640px){
+    .container{
+        flex-direction: row;
+        align-items: center;
+    }
+}
