@@ -1,0 +1,35 @@
+//Ejercicio For
+
+const dato = 10;
+let numero = 1;
+
+for(let x = dato; x>0; x--){
+    numero *= x;
+}
+console.log(numero);
+
+//Ejercicio While
+const dato = 10;
+let numero = 1;
+let x = dato;
+
+while(x > 0){
+    numero = numero * x;
+    console.log(numero);
+    x--;
+
+
+const dato = 12;
+let numero = 1;
+let x = dato;
+
+//Ejercicio while con break
+while(x > 0){
+    numero = numero * x;
+    console.log(numero);
+    x--;
+    
+    if(x > 10 ){
+        break;
+    }
+}
