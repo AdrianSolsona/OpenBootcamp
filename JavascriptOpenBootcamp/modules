@@ -1,0 +1,27 @@
+//Ejercicio suma y multiplicacion
+
+function suma(a, b) {
+    return a + b
+}
+function multiplicacion(a, b){
+    return a * b
+}
+
+module.exports = {
+    suma,
+    multiplicacion
+}
+
+const moduloControler = require("./modulos/controler.js");
+
+const sum = moduloControler.suma(1, 2);
+console.log(sum);
+
+const mul = moduloControler.multiplicacion(4, 5);
+console.log(mul);
+
+//Ejercicio Chalk
+
+import chalk from 'chalk';
+
+console.log(chalk.green('Hello world!'));
