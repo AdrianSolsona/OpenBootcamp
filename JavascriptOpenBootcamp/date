@@ -1,0 +1,8 @@
+const fecha = new Date();
+const fechaNacimiento = new Date(1995, 04, 06);
+console.log(fechaNacimiento);
+
+console.log(fecha.getTime() > fechaNacimiento.getTime());
+console.log(fechaNacimiento.getDay())
+console.log(fechaNacimiento.getMonth())
+console.log(fechaNacimiento.getFullYear())
